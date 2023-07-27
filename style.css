@@ -1,0 +1,179 @@
+.body {
+  font-family: Roboto Slab, Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #ffff;
+  display: grid;
+  max-width: 1024px;
+}
+#menu {
+  display: grid;
+  padding: 15px;
+  justify-content: center;
+}
+
+.navbar-brand {
+  margin-right: 50px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 500;
+}
+
+.navbar-brand:hover {
+  background-color: #c4c4c4;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Slider */
+
+.container-fluid {
+  padding: 0;
+}
+
+#mainSlider .carousel-inner,
+#mainSlider .carousel-item {
+  height: 90vh;
+}
+
+.who {
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+
+.who p {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 1.2rem;
+  line-height: 200%;
+}
+
+/* card */
+
+#team-area {
+  background-color: #c4c4c4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row {
+  justify-content: center;
+}
+
+#team-area .card-body {
+  text-align: center;
+}
+
+.card {
+  background-color: #c4c4c4;
+  border-color: #c4c4c4;
+}
+
+/* produtos */
+#produto-area {
+  padding-top: 50px;
+}
+
+#line2 {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.produtos .card-body {
+  background-color: #d9d9d9;
+}
+
+.produtos .card-body:hover {
+  background-color: #c4c4c4;
+}
+.produtos .card-title {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 700;
+}
+.produtos .card-text {
+  font-size: 0.8rem;
+}
+
+.produtos .btn-link {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.produtos .btn {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+/*rodapé */
+
+.fo {
+  background-color: #c4c4c4;
+}
+
+.rodape {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #c4c4c4;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.lado1 {
+  margin-left: 50px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.meio {
+  justify-content: center;
+  text-align: center;
+}
+
+.lado2 {
+  text-align: right;
+}
+
+.meio h4,
+p {
+  text-align: center;
+}
+
+.meio h4 {
+  margin-top: 130px;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+.lado3 {
+  padding-top: 150px;
+  justify-self: right;
+  margin-right: 50px;
+}
+
+.lado3 h3 {
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: "Lobster Two";
+  src: local(Lobster Two), url(LobsterTwo-Regular.ttf);
+}
+
+.lado1 h3{
+  font-family: Lobster Two;
+}
+
